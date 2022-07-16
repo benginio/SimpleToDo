@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TGLocation</string>
+    <string-array name="type">
+        <item>simple utilisateur</item>
+        <item>administrateur</item>
+    </string-array>
+
+</resources>

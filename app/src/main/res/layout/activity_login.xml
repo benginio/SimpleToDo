@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="127dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lock1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/user" />
+
+
+            <EditText
+                android:id="@+id/tUser"
+                android:layout_width="282dp"
+                android:layout_height="62dp"
+                android:ems="10"
+                android:hint="Username"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pass" />
+
+
+            <EditText
+                android:id="@+id/tPass"
+                android:layout_width="281dp"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Password"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Login"
+            android:textSize="35dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
